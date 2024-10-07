@@ -14,6 +14,7 @@ Further Enhancements
 Project Structure
 The repository is structured as follows:
 
+
 ├── data/
 │   ├── train/
 │   │   ├── fire/
@@ -26,6 +27,7 @@ The repository is structured as follows:
 ├── images/
 │   └── visualizations/
 ├── README.md
+
 data/: Contains training and testing datasets organized into 'fire' and 'nofire' classes.
 notebooks/: Jupyter Notebook for the fire detection model training and simulation.
 models/: Stores the trained model for easy access and reuse.
