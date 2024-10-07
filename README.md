@@ -16,17 +16,18 @@ The repository is structured as follows:
 
 
 ├── data/
-│   ├── train/
-│   │   ├── fire/
-│   │   └── nofire/
-│   └── test/
+⠁   ├── train/
+⠁   ⠁   ├── fire/
+⠁   ⠁   └── nofire/
+⠁   └── test/
 ├── notebooks/
-│   └── drone_fire_detection.ipynb
+⠁   └── drone_fire_detection.ipynb
 ├── models/
-│   └── trained_model.h5
+⠁   └── trained_model.h5
 ├── images/
-│   └── visualizations/
-├── README.md
+⠁   └── visualizations/
+└── README.md
+
 
 data/: Contains training and testing datasets organized into 'fire' and 'nofire' classes.
 notebooks/: Jupyter Notebook for the fire detection model training and simulation.
